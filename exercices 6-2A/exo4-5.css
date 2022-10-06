@@ -1,0 +1,33 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+div>p{
+    width: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: solid thin;
+}
+h1{
+    margin-bottom: 0;
+}
+h2{
+    margin: 0;
+}
+table{
+    border: double thick;
+}
+.header{
+    border: solid thin;    
+}
+.body{
+    border: solid thin;
+}
+.body, .header{
+    width: 20px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
